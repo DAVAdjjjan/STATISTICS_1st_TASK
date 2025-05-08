@@ -1,0 +1,22 @@
+{
+  "name": "task1_rgr",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "1st": "nodemon src/FirstTask/firstTask.js",
+    "2ndKNOWN": "nodemon src/SecondTask/knownDeviation.js",
+    "2ndUNKNOWN": "nodemon src/SecondTask/unknownDeviation.js",
+    "2ndDeviation": "nodemon src/SecondTask/forDeviation.js",
+    "3rd": "nodemon src/ThirdTask/experiment.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jStat": "^1.8.6",
+    "math": "^0.0.3",
+    "mathjs": "^14.4.0",
+    "nodemon": "^3.1.10"
+  }
+}
